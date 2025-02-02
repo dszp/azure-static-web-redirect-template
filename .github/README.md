@@ -6,7 +6,7 @@ Source repository for a statically-configured web-redirect using an Azure Static
 ## Deployment Steps
 To deploy this to a new repository/domain/Azure Static Web App:
 
-1. Copy the contents of this repository to the new one for a new domain, except for the `.github` folder (to use the template repository, if defined, create a new repository and select the template repository as the source).
+1. Copy the contents of this repository to the new one for a new domain (to use the template repository, if defined, create a new repository and select the template repository as the source).
 2. Connect the new Azure Static Web App to this repository with Deployment Token authentication type.
   - The Static Web App Name should be the domain name with periods replaced by hyphens to make it easy to find (periods are not allowed).
   - The Hosting Plan Type should be "Free" in almost all cases.
