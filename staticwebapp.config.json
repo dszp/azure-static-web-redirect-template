@@ -1,0 +1,15 @@
+{
+    "routes": [
+        {
+            "route": "/",
+            "redirect": "https://www.example.com/optional/path",
+            "statusCode": 301
+        }
+    ],
+    "responseOverrides": {
+    "404": {
+      "statusCode": 301,
+      "redirect": "/"
+    }
+  }
+}
